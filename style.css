@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg: #FFF7EB;
+    --one: #E76567;
+    --two: #199FB7;
+    --three: #FEBF46;
+    --text: #4D4D4D;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAVIGATION BAR*/
+#navigation-bar {
+    background-color: var(--bg);
+    padding: 1rem 10rem 0 10rem;
+}
+
+.navi-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navi-link a:link, a:visited {
+    color: var(--text);
+}
+
+/*HERO SECTION — LANDING PAGE*/
+#hero-section {
+    background-color: var(--bg);
+    padding: 1rem 10rem 2rem 10rem;
+}
+
+.introduction {
+    margin-left: -2rem;
+    position: relative;
+    top: 4rem;
+}
+
+.hero-photo {
+    margin-right: 5rem;
+    padding: 0;
+
+    position: relative;
+    bottom: -2.8rem;
+}
+
+.sub-tagline {
+    color: var(--two);
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+
+.main-tagline {
+    color: var(--one);
+    font-size: 8.7rem !important;
+    font-weight: 800 !important;
+    line-height: 7rem !important;
+}
+
+.sub2-tagline {
+    color: var(--text) !important;
+    font-size: 1.9rem !important;
+    font-weight: 400 !important;
+    line-height: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/*ORDER NOW & EXPLORE BUTTON*/
+.ordernow, .explore {
+    width: 25%;
+    height: 5%;
+    border-radius: 25px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.ordernow {
+    color: var(--bg) !important;
+    background-color: var(--three) !important;
+    border: var(--three) !important;
+}
+
+.explore {
+    border-color: var(--three) !important;
+    color: var(--three) !important;
+}
+
+.explore:hover {
+    background-color: var(--three) !important;
+    color: var(--bg) !important;
+    transition: 0.3s ease-in;
+}
+
+/*best sellers*/
+#best-sellers {
+    background-color: var(--three);
+    padding: 1rem 10rem 5rem 10rem;
+    text-align: center;
+}
+
+.best-sell-icon {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 50%;
+    height: auto;
+}
+
+.cookies, .coffee-crumble, .belgian-chocolate {
+    max-width: 75%;
+    max-height: auto;
+    border-radius: 8% !important;
+}
+
+.icecream-photo {
+    width: 90%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 15%;
+}
+
+.class-name, .ice-cream-flavor {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.icecream-desc {
+    text-align: left;
+    padding-left: 0.8rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem !important;
+}
+
+/*about us*/
+#about {
+    background-color: var(--two);
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+.about-txt, .abt-description, .feature-desc {
+    text-align: center;
+}
+
+.about-txt {
+    font-size: 7rem !important;
+    color: var(--three);
+    font-weight: 800 !important;
+}
+
+
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop — Enjoy the Moment</title>
+    <!--css file-->
+    <link rel="stylesheet" href="style.css">
+    <!--bootsrap links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--navigation-->
+    <section id="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="images/logo/scoops-main.svg" alt="Scoops Logo" width="50%" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link navi-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navi-link" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navi-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navi-link" href="#contact-us">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--hero-section-->
+    <section id="hero-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2" padding="0" margin="0"></div>
+                <div class="col-lg-4 align-self-center introduction">
+                    <p class="h3 sub-tagline">FRESH & DELICIOUS</p>
+                    <p class="h1 main-tagline">enjoy the moment.</p>
+                    <p class="h5 sub2-tagline">satisfy your tastedbuds with a scoop of your favorite ice cream.</p>
+                    <button type="submit" class="btn btn-lg btn-primary ordernow">order now</button>
+                    <button type="submit" class="btn btn-lg btn-outline-warning explore">explore</button>
+                </div>
+                <div class="col-lg-5 text-center text-sm-center hero-photo">
+                    <img class="hero-photo" src="images/ice-cream.svg" width="100%" height="auto" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--best sellers-->
+    <section id="best-sellers">
+        <img class="best-sell-icon" src="images/best-seller.svg" alt="">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 d-flex justify-content-center ice-cream-cards">
+                <div class="card border border-dark cookies">
+                    <img class="mx-auto icecream-photo" src="images/photos/cookies-and-cream.png" alt="cookies and cream">
+                    <p class="h5 class-name">CLASSIC SERIES</p>
+                    <p class="h3 ice-cream-flavor">cookies n' cream</p>
+                    <div class="card-body">
+                        <p class="h4 icecream-desc">rich and creamy vanilla ice cream loaded with chunks of oreos. perfect
+                            for people who loves the combo of vanilla ice cream and oreos!
+                        </p>
+                        <button type="button" class="btn btn-primary icecream-price">PHP 245.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 d-flex justify-content-center ice-cream-cards">
+                <div class="card border border-dark coffee-crumble">
+                    <img class="mx-auto icecream-photo" src="images/photos/coffee-crumble.png" alt="coffee crumble">
+                    <p class="h5 class-name">PREMIUM SERIES</p>
+                    <p class="h3 ice-cream-flavor">coffee crumble</p>
+                    <div class="card-body">
+                        <p class="h4 icecream-desc">coffee flavored ice cream loaded with chocolate chips and 
+                            almond nuts suitable for a coffee lover's palette.
+                        </p>
+                        <button type="button" class="btn btn-primary icecream-price">PHP 245.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4  d-flex justify-content-center ice-cream-cards">
+                <div class="card border border-dark belgian-chocolate">
+                    <img class="mx-auto icecream-photo" src="images/photos/belgian-chocolate.png" alt="belgian chocolate">
+                    <p class="h5 class-name">CLASSIC SERIES</p>
+                    <p class="h3 ice-cream-flavor">belgian chocolate</p>
+                    <div class="card-body">
+                        <p class="h4 icecream-desc">rich and velvety ice cream with finely shaved Belgian chocolate 
+                            for uniquely textured experience.
+                        </p>
+                        <button type="button" class="btn btn-primary icecream-price">PHP 245.00</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="menu.html" class="btn btn-primary browse-menu" role="button" aria-pressed="true">browse all menu</a>
+    </section>
+
+    <!--ABOUT US-->
+    <section id="about">
+        <p class="h1 about-txt">about us.</p>
+        <p class="h4 abt-description">scoops is an ice cream brand established in 2021
+            with a<br>purpose to be known for its creamy & delicious ice cream
+            that<br>is perfect for all ages. each flavor is made in-house 
+            with fresh ingredients<br>and love, bringing creaminess and happiness
+            with every scoop.
+        </p>
+        <div class="row align-items-center">
+            <div class="col col-lg-2 col-md-4 mx-auto">
+                <img class="icecream-features" src="images/fresh-ingredients.svg" width="50%" alt="">
+                <p class="h4 feature-desc">made with fresh ingredients</p>
+            </div>
+            <div class="col col-lg-2 col-md-4 mx-auto">
+                <img class="icecream-features" src="images/vegan-options.svg" width="50%" alt="">
+                <p class="h4 feature-desc">we have vegan alternatives</p>
+            </div>
+            <div class="col col-lg-2 col-md-4 mx-auto">
+                <img class="icecream-features" src="images/yummy.svg" width="50%" alt="">
+                <p class="h4 feature-desc">yummy</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="customer-reviews">
+        <p class="h2">customer reviews</p>
+    </section>
+</body>
+</html>
